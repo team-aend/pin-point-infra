@@ -1,0 +1,19 @@
+# 빌드 결과물 및 라이브러리
+/build/
+/.gradle/
+/out/
+/bin/
+
+# IDE 설정 파일
+/.idea/
+/*.iml
+/.vscode/
+
+# 운영체제 임시 파일
+.DS_Store
+Thumbs.db
+
+# 도커 및 환경 변수 관련 (비밀번호나 API 키 유출 방지)
+.env
+*.tar
+*.tar.gz
